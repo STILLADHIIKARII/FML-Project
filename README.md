@@ -19,11 +19,11 @@ Each Model is trained for 30 epochs and calculates training loss and accuracy of
 
 Clone the project
 ```bash
-  git clone https://github.com/STILLADHIIKARII/FML-Project
+    git clone https://github.com/STILLADHIIKARII/FML-Project
 ```
 Go to the project directory
 ```bash
-  cd <your-repo>
+    cd <your-repo>
 ```
 Create and activate a virtual environment (optional but recommended)
 ```bash
