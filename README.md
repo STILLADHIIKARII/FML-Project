@@ -7,7 +7,7 @@ using a massively overparameterized CNN trained on a small subset of MNIST. This
 
 ## Dataset
 MNIST dataset which contains large number of handwritten digits and divided into training and testing set. Each image is a grayscale image of size 28x28 pixels.
->The MNIST dataset contain 60k images for training set and uses other 10k images for testing set
+The MNIST dataset contain 60k images for training set and uses other 10k images for testing set
 ## Training Setup
 A small CNN is imployed containing number of Convolution layers 1→64 → 128 → 256 channels with activation functions ReLU + BatchNorm along with Two MaxPooling layers to downsample the spatial dimensions.
 This results in millions of parameters, ensuring overparameterization of the model which is essential for this experiment.
